@@ -42,6 +42,7 @@ public class PrimitiveDataType {
 		System.out.println("몸무게 : "+ weight);
 		System.out.println("혈액형 : "+bloodType+"형");
 		
+		
 		// TODO Auto-generated method stub
 
 	}
