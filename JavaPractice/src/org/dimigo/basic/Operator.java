@@ -33,7 +33,7 @@ public class Operator {
 		System.out.println("점포 수 : " + String.format("%,d",number) + "개");
 		System.out.println("");
 		System.out.println("연간 인건비 : " +String.format("%,d", (long)price*12*employer*number) + "원");
-		
+
 
 	}
 
