@@ -15,62 +15,50 @@ package org.dimigo.oop;
  * @version : 1.0
  */
 public class Snack {
-
-	public Snack(){
-		
-	}
-	public Snack(String name, String company, int price, int number) {
-	}
 	private String name;
 	private String company;
 	private int price;
 	private int number;
-	/**
-	 * @return the name
-	 */
 	
+	public Snack() {
+		
+	}
+	
+	public Snack(String name, String company, int price, int number) {
+		this.name = name;
+		this.company = company;
+		this.price = price;
+		this.number = number;
+	}
+
 	public String getName() {
 		return name;
 	}
-	/**
-	 * @param name the name to set
-	 */
+	
 	public void setName(String name) {
 		this.name = name;
 	}
-	/**
-	 * @return the company
-	 */
+	
 	public String getCompany() {
 		return company;
 	}
-	/**
-	 * @param company the company to set
-	 */
+	
 	public void setCompany(String company) {
 		this.company = company;
 	}
-	/**
-	 * @return the price
-	 */
+	
 	public int getPrice() {
 		return price;
 	}
-	/**
-	 * @param price the price to set
-	 */
+	
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	/**
-	 * @return the number
-	 */
+
 	public int getNumber() {
 		return number;
 	}
-	/**
-	 * @param number the number to set
-	 */
+
 	public void setNumber(int number) {
 		this.number = number;
 	}
@@ -78,11 +66,13 @@ public class Snack {
 	public int calcPrice() {
 		return price * number;
 	}
-	public String toString(){
-		return "이름 : " + name + "\n제조사 : " + company + "\n가격 : " + String.format("%,d", price) + "원" + "\n개수 : " + number+ "개";
-	}
-	
 
-	
+	public String toString() {
+		// StringBuilder로 생성
+		return new StringBuilder("이름 : ").append(name).append("\n")
+					.append("제조사 : ").append(company).append("\n")
+					.append("가격 : ").append(String.format("%,d", price) + "원\n")
+					.append("개수 : ").append(number).append("개\n").toString();
+	}
 	
 }
