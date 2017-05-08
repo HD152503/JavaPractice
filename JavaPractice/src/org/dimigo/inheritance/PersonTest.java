@@ -16,9 +16,7 @@ package org.dimigo.inheritance;
  */
 public class PersonTest {
 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 		Person e = new Person("Tom");
 		System.out.println(e);

@@ -15,7 +15,7 @@ package org.dimigo.inheritance;
  * @version : 1.0
  */
 public class Person {
-
+	public Person(){};
 	public String name;
 	public Person(String name){
 		this.name = name;
