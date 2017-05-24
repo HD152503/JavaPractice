@@ -11,17 +11,17 @@ package org.dimigo.interfaces;
 * 1. 개요 :
 * 2. 작성일 : 2017. 5. 24.
 * </pre>
- * @author : kisejun
+ * @author : kisejun 
  * @version : 1.0
  */
-public abstract class DBTest implements IDBManager{
-
+public class DBTest{
+ 
 	public static void main(String[] args) {
-		System.out.println("< 변경 전 >");
+		System.out.println("<< 변경 전 >>");
 		IDBManager s = IDBManager.getDBObject(IDBManager.SYBASE_DATABASE);
 		crud(s);
 		System.out.println();
-		System.out.println("< 변경  후 >");
+		System.out.println("<< 변경  후 >>");
 		IDBManager o = IDBManager.getDBObject(IDBManager.ORACLE_DATABASE);
 		crud(o);
 	}

@@ -11,7 +11,7 @@ package org.dimigo.interfaces;
 * 1. 개요 :
 * 2. 작성일 : 2017. 5. 24.
 * </pre>
- * @author : kisejun
+ * @author : kisejun  
  * @version : 1.0
  */
 public interface IDBManager {

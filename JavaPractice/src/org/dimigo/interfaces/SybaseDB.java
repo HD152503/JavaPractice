@@ -9,7 +9,7 @@ package org.dimigo.interfaces;
 *	|_ SybaseDB
 *
 * 1. 개요 :
-* 2. 작성일 : 2017. 5. 24.
+* 2. 작성일 : 2017. 5. 24. 
 * </pre>
  * @author : kisejun
  * @version : 1.0

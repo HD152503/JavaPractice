@@ -8,7 +8,7 @@ package org.dimigo.interfaces;
 *  org.dimigo.interfaces
 *	|_ OracleDB
 *
-* 1. 개요 :
+* 1. 개요 : 
 * 2. 작성일 : 2017. 5. 24.
 * </pre>
  * @author : kisejun
