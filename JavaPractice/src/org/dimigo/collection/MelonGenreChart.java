@@ -31,7 +31,7 @@ public class MelonGenreChart {
 		danceList.add(1, new Music("맞지?","언니쓰"));
 		balladeList.add(0, new Music("팔레트","아이유"));
 		
-		System.out.println("-- << 멜론 장르멸 챠트 >> --");
+		System.out.println("-- << 멜론 장르 챠트 >> --");
 		printMap(map);
 		
 		danceList.set(1, new Music("SIGNAL", "트와이스"));
